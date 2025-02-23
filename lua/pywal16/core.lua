@@ -2,7 +2,7 @@ local M = {}
 
 function M.get_colors()
   --vim.cmd [[ source $HOME/.config/nvim/lua/themes/colors.vim ]]
-  local _colors = require("config._colors")
+  local _colors = require("themes.matugen")
 
   return {
     transparent = "NONE",
